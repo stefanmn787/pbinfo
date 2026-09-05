@@ -4,11 +4,8 @@ using namespace std;
 
 int main()
 {
-    int a, b;
-    cin >> a >> b;
-    cout << a+b << " ";
-    cout << a-b << " ";
-    cout << a*b << " ";
-    cout << a/b << " ";
+    int x, y;
+    cin >> x >> y;
+    cout<< (x+y)%10;
     return 0;
 }
