@@ -4,8 +4,10 @@ using namespace std;
 
 int main()
 {
-    int x, y;
-    cin >> x >> y;
-    cout<< (x+y)%10;
+    int a, r ,v;
+    cin >> a;
+    r=a*2;
+    v=r-3;
+    cout<<a+v+r;
     return 0;
 }
