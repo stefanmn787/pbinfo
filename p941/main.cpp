@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-    int x,y;
-    cin >> x >> y;
-    cout<<3*y-x;
+    int z,n;
+    cin >> z >> n;
+    cout<<n/z;
     return 0;
 }
