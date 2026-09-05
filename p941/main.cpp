@@ -4,9 +4,12 @@ using namespace std;
 
 int main()
 {
-    int m,n;
-    cin>>n>>m;
-    cout<<m/n;
+    int n,s,c;
+    cin>>n;
+    c=n%100;
+    s=c%10;
+    c=c/10;
+    cout<<s+c;
 
     return 0;
 }
