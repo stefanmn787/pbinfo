@@ -4,8 +4,11 @@ using namespace std;
 
 int main()
 {
-    int l,h;
-    cin>>l>>h;
-    cout<<h/l;
+    int G,O,c,p;
+    cin>>G>>O;
+    c=G+O;
+    cout<<c<<' ';
+    p=G*2+O*4;
+    cout<<p;
     return 0;
 }
