@@ -1,15 +1,11 @@
 #include <iostream>
-
+#include <cmath>
 using namespace std;
 
 int main()
 {
-    int n,s,c;
+    int n;
     cin>>n;
-    c=n%100;
-    s=c%10;
-    c=c/10;
-    cout<<s+c;
-
+    cout<< sqrt(n);
     return 0;
 }
