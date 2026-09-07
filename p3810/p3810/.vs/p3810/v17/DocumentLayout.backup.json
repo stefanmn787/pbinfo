@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vlad\\Desktop\\proiecte vlad\\info\\stefan\\pbinfo\\p3810\\p3810\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{711C67A4-3DC7-4EB0-9D67-3B9A3D5C83A6}|p3810\\p3810.vcxproj|C:\\Users\\Vlad\\Desktop\\proiecte vlad\\info\\stefan\\pbinfo\\p3810\\p3810\\p3810\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{711C67A4-3DC7-4EB0-9D67-3B9A3D5C83A6}|p3810\\p3810.vcxproj|solutionrelative:p3810\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Vlad\\Desktop\\proiecte vlad\\info\\stefan\\pbinfo\\p3810\\p3810\\p3810\\main.cpp",
+              "RelativeDocumentMoniker": "p3810\\main.cpp",
+              "ToolTip": "C:\\Users\\Vlad\\Desktop\\proiecte vlad\\info\\stefan\\pbinfo\\p3810\\p3810\\p3810\\main.cpp",
+              "RelativeToolTip": "p3810\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-07T16:47:41.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
