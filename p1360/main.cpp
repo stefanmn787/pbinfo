@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-    int n,s;
+    int n;
     cin >> n;
-    s = 0;
-    while ( n != 0)
-    {
-        if(n >= 100 && n <= 999 && n / 100 == n % 10)
-        {
-            s = s + n;
-        }
+
+    long long P = 1;
+
+    for (int i = 1; i <= n; i++) {
+        P *= i * i;
     }
-    cout << s;
+
+    cout << P;
+
     return 0;
 }
