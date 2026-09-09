@@ -2,20 +2,16 @@
 using namespace std;
 
 int main() {
-    int n;
+    int n,s;
     cin >> n;
-
-    if (n % 2 == 0) {
-        cout << "NU ESTE NOROCOS";
-    } else {
-        int primul = (n + 1) / 2;
-
-        for (int i = 0; i < n; i++) {
-            cout << primul + i;
-            if (i < n - 1)
-                cout << ' ';
+    s = 0;
+    while ( n != 0)
+    {
+        if(n >= 100 && n <= 999 && n / 100 == n % 10)
+        {
+            s = s + n;
         }
     }
-
+    cout << s;
     return 0;
 }
