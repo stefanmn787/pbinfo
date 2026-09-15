@@ -8,8 +8,11 @@ int main()
    cin >> n;
    for(i=1;i<=n;i++)
    {
-       s = s + i * i * i * i;
+       if( i * i <= n)
+       {
+       s = s + i * i;
+       }
    }
-   cout<< s % 10;
+   cout << "Rezultatul este "<< s;
     return 0;
 }
