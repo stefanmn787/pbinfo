@@ -4,26 +4,14 @@ using namespace std;
 
 int main()
 {
-   int a ,b ,c,p=0,i=0;
-   cin >> a >> b >> c;
-     if(a % 2 == 0)
-     {
-         p++;
-     }
-     else i++;
-     if (b % 2 == 0)
-     {
-         p++;
-     }
-     else i++;
-     if(c % 2 == 0)
-     {
-         p++;
-     }
-     else i++;
-     if(i > p) {
-        cout << "impare";
-     }
-     else cout << "pare";
+   int a ,b ;
+   cin >> a >> b ;
+    if(a > b){
+        cout << " Primul copil este mai mare cu " << a - b << " ani";
+    }
+    else if(a<b){
+        cout << "Al doilea copil este mai mare cu " << b - a <<  " ani";
+    }
+    else cout << "Copiii au varste egale";
     return 0;
 }
