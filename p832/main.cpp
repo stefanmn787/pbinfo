@@ -4,12 +4,17 @@ using namespace std;
 
 int main()
 {
-   int a ,b ,n;
-   cin >> a >> b >> n;
-   if (a<=n && n <= b)
-   {
-       cout << "DA";
-   }
-   else cout << "NU";
+   int a ,b ,c,minim;
+   cin >> a >> b >> c;
+     minim = a;
+
+    if (b < minim)
+        minim = b;
+
+    if (c < minim)
+        minim = c;
+
+    cout << minim;
+
     return 0;
 }
