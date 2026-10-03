@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-   int n;
-   cin  >> n;
-   if (n>=5)
+   int a ,b ,x;
+   cin >> a >> b >> x;
+   if (a<=x && x <= b)
    {
-       cout << "promovat";
+       cout << "DA";
    }
-   else cout << "corigent";
+   else cout << "NU";
     return 0;
 }
