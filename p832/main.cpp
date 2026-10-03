@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-   int a ,b ,x;
-   cin >> a >> b >> x;
-   if (a<=x && x <= b)
+   int a ,b ,n;
+   cin >> a >> b >> n;
+   if (a<=n && n <= b)
    {
        cout << "DA";
    }
