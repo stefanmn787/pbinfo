@@ -41,3 +41,5 @@ obj/
 coverage/
 
 .vs/
+
+x64/
