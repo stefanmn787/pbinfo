@@ -4,15 +4,16 @@ using namespace std;
 
 int main()
 {
-   int n,i,x,MAX;
+   int n,i,x,MIN;
    cin >> n;
-   MAX=1;
+   MIN=1;
    for( i =1;i <= n;i++){
     cin >> x;
-
-   if(MAX < x)
-    MAX=x;
+{
+   if(MIN > x)
+    MIN=x;
+}
    }
-   cout << MAX;
+   cout << MIN;
     return 0;
 }
