@@ -12,7 +12,7 @@ int main()
   }
   else
   {
-      while(n!=0 && n>=0)
+      while(n!=0)
       {
           cin >> n;
           if(n<min)
