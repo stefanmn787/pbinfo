@@ -4,19 +4,13 @@ using namespace std;
 
 int main()
 {
-    int n,i;
-   cin>>n;
-   for(i=1;i<=n;i=i+1)
-   {   for(i=1;i<=n;i=i+1)
-       if(i%2==0) cout<<i<<" ";
-       cout<<endl;
+    int a, b;
+    cin >> a >> b;
 
-       for(i=1;i<=n;i=i+1)
-       if(i%3==0) cout<<i<<" ";
-       cout<<endl;
-
-       for(i=1;i<=n;i=i+1)
-       if((i%2==0 || i%3==0)&& (i%6!=0)) cout<<i<<" ";
-   }
+    for (int i=1;i<=b;i++) {
+        cout << a * i;
+        if (i<b)
+            cout << ' ';
+    }
     return 0;
 }
