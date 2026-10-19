@@ -4,14 +4,13 @@ using namespace std;
 
 int main()
 {
-   int a,r,n;
-    cin >>a>>r>>n;
+  int i,j,n;
+    cin>>n;
+    for(i=1;i<=n;i++)
+        cout<<i<<" ";
+    cout<<endl;
 
-    for (int i=0;i<n;i++) {
-        cout <<
-        a+i*r;
-        if (i<n-1)
-            cout << ' ';
-    }
+    for(i=n;i>=1;i--)
+        cout<<i<<" ";
     return 0;
 }
