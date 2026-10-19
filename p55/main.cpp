@@ -4,21 +4,19 @@ using namespace std;
 
 int main()
 {
-  int n,min;
-  cin >>n;
-  if(n==0)
+  int n, mini = 1000001;
+  bool ok = 0;
+  cin >> n;
+
+  while(n != 0)
   {
-      cout << "NU EXISTA";
+    if(n < mini && n > 0)
+        mini = n, ok = 1;
+    cin >> n;
   }
+  if( ok )
+    cout << mini;
   else
-  {
-      while(n!=0)
-      {
-          cin >> n;
-          if(n<min)
-            min=n;
-      }
-  }
-  cout << min;
-    return 0;
+    cout << "NU EXISTA";
+  return 0;
 }

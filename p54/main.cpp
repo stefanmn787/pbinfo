@@ -4,18 +4,19 @@ using namespace std;
 
 int main()
 {
-    int n,max=1;
+    int n, maxi = -1000001;
     cin >> n;
-    if(n==0)
+    if(n == 0)
     {
-        cout << "NU EXISTA";
+        cout << "NU EXISTA" ;
+        return 0;
     }
-    while(n!=0)
+    while( n != 0)
     {
+        if(n > maxi)
+            maxi = n;
         cin >> n;
-        if(n>max)
-            max=n;
     }
-    cout << n;
+    cout << maxi;
     return 0;
 }

@@ -4,22 +4,16 @@ using namespace std;
 
 int main()
 {
-    int i,n,x=0,min,max;
+    int i,n,x=0,mini=1000000,maxi=0;
     cin >> n;
-    for(i=1;i<=n;i++)
+    for(i=1;i<=n;i++){
         cin >> x;
-    while(x!=0)
-    {
-        if(min>x)
-            min=x;
+
+        if(mini>x)
+            mini=x;
+        if(maxi<x)
+            maxi=x;
     }
-    for(i=1;i<=n;i++)
-        cin >> x;
-    while(x!=0)
-    {
-        if(max<x)
-            max=x;
-    }
-    cout << min+max;
+    cout << mini+maxi;
     return 0;
 }

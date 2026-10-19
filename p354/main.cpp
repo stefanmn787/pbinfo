@@ -4,16 +4,14 @@ using namespace std;
 
 int main()
 {
-   int n,i,x,MIN;
+   int n,i,x,maxi=-1000000000;
    cin >> n;
-   MIN=1;
-   for( i =1;i <= n;i++){
-    cin >> x;
-{
-   if(MIN > x)
-    MIN=x;
-}
-   }
-   cout << MIN;
+
+   for( i = n ; i >= 1; i--){
+        cin >> x;
+        if(maxi < x)
+            maxi=x;
+    }
+   cout << maxi;
     return 0;
 }
