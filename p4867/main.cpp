@@ -4,7 +4,7 @@ using namespace std;
 
 int sumcif(int n) {
      int s = 0 ;
-     while( n != 0)
+     while(n != 0)
      {
          s = s + n % 10;
          n /= 10;
@@ -42,7 +42,7 @@ int main()
         p *= 10;
         cc /= 10;
     }
-    int sc=sumcif(c),scc=sumcif(cc);
+    int sc=sumcif(c),scc=sumcif(a);
     if(sc == scc)
     {
         cout << sc;
