@@ -10,6 +10,7 @@ int main()
     {
         if(n % 2 ==0)
           i++;
+          cin >> n;
     }
     if (i==0)
         cout << "NU EXISTA";
