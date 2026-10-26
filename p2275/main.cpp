@@ -1,9 +1,11 @@
 #include <iostream>
-
+#include <fstream>
 using namespace std;
+
+ifstream fin("minimdoua.in")
 
 int main()
 {
-    cout << "Hello world!" << endl;
+
     return 0;
 }
