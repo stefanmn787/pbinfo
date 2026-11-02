@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-     int n;
+    int n, x, y;
     cin >> n;
 
-    for (int x = 1; x <= n / 2; x++) {
-        int y = n - x;
-        cout << x << " " << y ;
+    for (x = 1; x <= n / 2; x++) {
+            y = n - x;
+        cout << x << ' ' << y ;
         cout << endl;
     }
     return 0;
